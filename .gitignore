@@ -1,0 +1,10 @@
+# Ignore specific folder
+Attempt_miguel_fix/
+
+# Ignore specific files
+PRISMA.docx
+S2-deviations.docx
+S3-search.docx
+S4-Inclusion-exclusion-criteria.docx
+S5-selection-procedure.docx
+Studies.xlsx
