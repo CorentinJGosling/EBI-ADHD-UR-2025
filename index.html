@@ -2827,6 +2827,39 @@ participants included in trials with high reporting bias</li>
 <hr style="border-top: 3px double #8c8b8b;">
 </div>
 </div>
+<div id="data-analytic-strategy" class="section level1">
+<h1>6.5 Data analytic strategy</h1>
+<p>All analyses were performed in the R environment (version 4.1.1)
+using the ‘metaumbrella’ package.22 We used the standardized mean
+difference (SMD) as the main effect size measure for the assessment of
+efficacy and Risk Ratio (RR) for the assessment of safety measures
+(i.e., acceptability, tolerability, and adverse events). For
+meta-analyses of mean difference (MD) and Odds Ratio (OR), we harmonized
+effect size metrics by converting individual RCTs effect sizes into SMD
+and RR, respectively, prior to conducting calculations. For the
+meta-analysis of OR and RR, we systematically re-estimated the effect
+size from the contingency table when available, as meta-analytic reports
+frequently use different analytic strategies to handle situations with
+no events in a group. Regardless of the metric used (RR or SMD), the
+direction of the effect was reversed when needed, such that a positive
+effect size (RR&gt;1 or SMD&gt;0) systematically reflected an
+improvement, i.e., a symptom reduction, a competence improvement or a
+higher safety.</p>
+<p>We re-ran all meta-analyses comparing intervention and control groups
+using random-effects models. To estimate between-study heterogeneity
+variance (τ²), we employed restricted maximum likelihood (REML)
+estimators for SMD and Paul-Mandel estimators for OR or RR. Pooled
+effect sizes were reported with 95% confidence intervals derived from
+the standard normal quantile (Wald) method. Heterogeneity was assessed
+using I² statistics, Q-statistics, τ² values, and 95% prediction
+intervals. To evaluate small-study effects, we applied Egger’s
+regression asymmetry test,23 analyzed excess statistical significance
+bias,24 and quantified the proportion of participants in studies with
+high risk of selective reporting bias. Where meta-analyses included
+dependent effect sizes, we resolved dependency using the standardized
+data aggregation method proposed by Borenstein and colleagues.25</p>
+<hr style="border-top: 3px double #8c8b8b;">
+</div>
 <div id="s7.-included-studies" class="section level1">
 <h1>S7. Included studies</h1>
 <div style="border: 1px solid #ddd; padding: 0px; overflow-y: scroll; height:500px; overflow-x: scroll; width:100%; ">
@@ -9194,26 +9227,23 @@ Wrong comparison group
 <pre><code>## [1] &quot;The most frequent exclusion reasons were Unclear ADHD diagnosis (n=129), NA (n=38), Abstract/poster (n=22), No ADHD subgroup (n=14), No outcome of interest (n=13), Nonreplicable (n=11), Abstract/Poster (n=8), No meta-analysis (n=8), Mixed interventions (n=7), Dissertation (n=6)&quot;</code></pre>
 <hr style="border-top: 3px double #8c8b8b;">
 </div>
-<div id="s9.-quality-of-included-meta-analyses" class="section level1">
-<h1>S9. Quality of included meta-analyses</h1>
-<pre><code>## [1] &quot;reports with no amstar = 662&quot;  &quot;reports with no amstar = 3367&quot;
-## [3] &quot;reports with no amstar = 3448&quot;</code></pre>
-<pre><code>## # A tibble: 5 x 3
+<div id="s9.-amstar-2" class="section level1">
+<h1>S9. AMSTAR-2</h1>
+<pre><code>## [1] &quot;reports with no amstar = &quot;</code></pre>
+<pre><code>## # A tibble: 4 x 3
 ##   amstar_rank        n  perc
 ##   &lt;chr&gt;          &lt;int&gt; &lt;dbl&gt;
 ## 1 Critically low    16    36
-## 2 High              17    38
-## 3 Low                6    13
-## 4 Moderate           3     7
-## 5 &lt;NA&gt;               3     7</code></pre>
-<pre><code>## # A tibble: 5 x 3
+## 2 High              18    40
+## 3 Low                7    16
+## 4 Moderate           4     9</code></pre>
+<pre><code>## # A tibble: 4 x 3
 ##   amstar_rank        n  perc
 ##   &lt;chr&gt;          &lt;int&gt; &lt;dbl&gt;
 ## 1 Critically low    39    18
-## 2 High             128    61
-## 3 Low               27    13
-## 4 Moderate          13     6
-## 5 &lt;NA&gt;               4     2</code></pre>
+## 2 High             130    62
+## 3 Low               28    13
+## 4 Moderate          14     7</code></pre>
 <hr style="border-top: 3px double #8c8b8b;">
 </div>
 <div id="s10.-primary-outcomes" class="section level1">
@@ -9724,7 +9754,7 @@ cat(summary_text)
 ```
 
 ```
-## Following analysis of the 211 meta-analytic reports, we found a median of 4 RCTs per meta-analysis (IQR: 2-7), with a median of 346 participants per RCT (IQR: 162-818). The methodological quality assessment using AMSTAR-2 showed 62% of meta-analyses were of high quality, 6% of moderate quality, and 32% of low quality. The median of pooled effect sizes was small-to-moderate  (median SMD: 0.37, IQR: 0.15-0.61; median RR: 0.80, IQR: 0.38-1.15), with 51% of meta-analyses reporting statistically significant results (p < 0.05). GRADE certainty assessments revealed that only 3% of meta-analyses provided high-certainty evidence, while 9% offered moderate-certainty, 12% low-certainty, and the vast majority (75%) provided very low-certainty evidence, indicating substantial limitations in the overall quality of the evidence base.
+## Following analysis of the 211 meta-analytic reports, we found a median of 4 RCTs per meta-analysis (IQR: 2-7), with a median of 346 participants per RCT (IQR: 162-818). The methodological quality assessment using AMSTAR-2 showed 62% of meta-analyses were of high quality, 7% of moderate quality, and 32% of low quality. The median of pooled effect sizes was small-to-moderate  (median SMD: 0.37, IQR: 0.15-0.61; median RR: 0.80, IQR: 0.38-1.15), with 51% of meta-analyses reporting statistically significant results (p < 0.05). GRADE certainty assessments revealed that only 3% of meta-analyses provided high-certainty evidence, while 9% offered moderate-certainty, 12% low-certainty, and the vast majority (75%) provided very low-certainty evidence, indicating substantial limitations in the overall quality of the evidence base.
 ```
 
 
