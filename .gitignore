@@ -1,5 +1,6 @@
 # Ignore specific folder
 Attempt_miguel_fix/
+save/
 
 # Ignore specific files
 PRISMA.docx
