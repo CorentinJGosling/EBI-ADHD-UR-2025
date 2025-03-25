@@ -44,7 +44,7 @@ For questions or additional information about this umbrella review, please conta
 
 - **Comprehensive Analysis**: Evaluation of 30 ADHD interventions including pharmacological and non-pharmacological approaches
 - **Benefit-Harm Assessment**: Systematic assessment of efficacy on many outcomes, acceptability, tolerability and potential adverse effects on sleep and appetite
-- **Shared Decision-Making Focus**: A platform enabling to have an interactive access to our results: (ebiadhd-database.org)[https://ebiadhd-database.org]
+- **Shared Decision-Making Focus**: A platform enabling to have an interactive access to our results (https://ebiadhd-database.org)
 - **Rigorous Methodology**: Adhesion of highest methodological standards in the field of umbrella review
 - **Risk of Bias Assessment**: Separate analysis of studies with low risk of bias
 
