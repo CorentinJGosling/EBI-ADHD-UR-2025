@@ -4,7 +4,7 @@
 
 This repository contains data, analysis, and documentation for an umbrella review examining the benefits and harms of interventions for Attention-Deficit/Hyperactivity Disorder (ADHD). The project aims to synthesize evidence from existing systematic reviews and meta-analyses to provide a comprehensive overview of ADHD intervention effectiveness and safety.
 
-The findings are intended to support a platform for shared decision-making between healthcare providers, patients, and caregivers.
+The findings are intended to support a platform for shared decision-making between healthcare providers, people with lived experience of ADHD, caregivers, and clinical guidelines developers.
 
 ## Repository Contents
 
