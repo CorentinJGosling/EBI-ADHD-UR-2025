@@ -21,9 +21,12 @@ For questions or additional information about this umbrella review, please conta
 
 ### Analysis Files
 
-- `UR_ADHD_analysis.xlsx` - Complete analysis dataset for the umbrella review
-- `UR_ADHD_analysis_low_RoB.xlsx` - Analysis limited to studies with low risk of bias
-- `index.html` - Complete code used for generating content in hte manuscript
+- `datasets/UR_ADHD_analysis.xlsx` - Complete analysis dataset for the umbrella review
+- `datasets/UR_ADHD_analysis_low_RoB.xlsx` - Analysis limited to studies with low risk of bias
+- `datasets/dcct_export.csv` - RCT-level dataset
+- `datasets/dma_export.csv` - MA-level dataset
+- `index.html` - Complete code used for generating content in the manuscript
+- `data_analysis_code.R` - Complete code used for generating results
 
 ### Study Selection Documentation
 
